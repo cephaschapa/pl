@@ -18,11 +18,12 @@ const Header = () => {
                     <Image src="/logo.svg" layout="fill" objectFit="cover"/>
                     
                 </div>
-                <div className="">
-                    <ul className="flex space-x-8">
-                        <li>Home</li>
+                <div className="hidden lg:inline">
+                    <ul className="flex space-x-8 items-center">
+                        <li className="p-4 bg-blue-800 text-white rounded-2xl">Home</li>
                         <li>About</li>
                         <li>News</li>
+                        <li>Contact</li>
                         <li>Projects</li>
                         <li>Apply for funding</li>
                         <li>Opportunities in Nchanga</li>
