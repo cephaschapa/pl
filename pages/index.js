@@ -16,8 +16,8 @@ export default function Home() {
       <Header />
       <section className="bg-hero h-screen w-full px-4 lg:px-32">
           <div className="h-full flex flex-col justify-center space-y-4">
-            <h1 className="text-white text-6xl">Lets be the change we want to create</h1>
-            <div className="text-3xl">
+            <h1 className="text-white text-4xl lg:text-6xl">Lets be the change we want to create</h1>
+            <div className="text-xl lg:text-3xl">
               <p className="text-gray-200">Be part of this great change</p>
               <p className="text-gray-500">Derick Chilundika</p>
             </div>
